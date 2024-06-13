@@ -1,0 +1,83 @@
+body{
+    background-color: hsl(185, 75%, 39%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: "Kumbh Sans", sans-serif;
+}
+
+.main{
+    width: 350px;
+    height: 450px;
+    background-color: white;
+    border-radius: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main .top-card{
+    height: 270px;
+    width: 100%;
+    margin-bottom: 10px;
+
+}
+
+.main .top-card .img-perfil{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin: 0 auto ;
+}
+
+.main .top-card .txt-titulo{
+    font-size: 20px;
+    font-weight: 700;
+    color: black;
+    width: 100%;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.main .top-card .span{
+    color: hsl(227, 10%, 46%);
+}
+
+.main .top-card .txt-centro{
+    text-align: center;
+    margin-top: 20px;
+    color: hsl(227, 10%, 46%);
+    font-size: 19px;
+}
+
+.main .divisao{
+    height: 1px;
+    width: 90%;
+    background-color: hsl(224, 10%, 69%);
+    margin-bottom: 25px;
+}
+
+
+.main .informacoes{
+    display: flex;
+    justify-content: center;
+    width: 90%;
+
+}
+
+.main .informacoes .card-informacoes{
+    margin-right: 20px;
+    gap: 50px;
+    text-align: center;
+}
+
+.main .informacoes .card-informacoes .numeros{
+    font-size: 21px;
+    font-weight: 700;
+}
+
+.main .informacoes .card-informacoes .txt-informacoes{
+    color: hsl(227, 10%, 46%);
+}
